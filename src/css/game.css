@@ -1,0 +1,123 @@
+.game{
+  position: relative;
+  width: 100%;
+  height: 40%;
+}
+
+.score{
+  z-index: 2;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  padding: 8px 15px;
+}
+
+.tela{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-bottom: 15px solid #04c22a;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dia{
+  background-image: linear-gradient(to bottom, #3bdff5, #fff)
+}
+
+.noite{
+  background-image: linear-gradient(to bottom, #2176cc, #858dff);
+}
+
+.game-over{
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: none;
+}
+
+.clouds{
+  position: absolute;
+  width: 300px;
+  margin-top: 5%;
+  animation: clouds-animation 20s infinite linear;
+}
+
+.pipe{
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  animation: pipe-animation 1s infinite linear;
+}
+
+.mario{
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+}
+
+.jump{
+  animation: mario-animation 500ms ease-out;
+}
+
+.botao{
+  display: block;
+  margin: auto;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20%;
+  border-radius: 30px;
+  background-color: #ff1f4b;
+  color: #fff;
+  box-shadow: 0px 8px 0px #b3104e;
+  transition: .3s ease;
+}
+
+.botao:active{
+  box-shadow: none;
+  transform: translateY(8px)
+}
+
+.botao.reiniciar{
+  display: none;
+}
+
+@keyframes mario-animation{
+  0%{bottom: 0;}
+  40%{bottom: 120px;}
+  50%{bottom: 120px;}
+  60%{bottom: 120px;}
+  100%{bottom: 0;}
+}
+
+@keyframes pipe-animation{
+  from{
+    right: -40px;
+  }
+  to{
+    right: 100%;
+  }
+}
+
+@keyframes clouds-animation{
+  from{
+    right: -300px;
+  }
+  to{
+    right: 100%;
+  }
+}
+
+@keyframes game-over{
+  from{
+    background: black url('../imagens/tela-game-over.png') center center no-repeat;
+    background-size: cover;
+    opacity: 0;
+  }
+  to{
+    background: black url('../imagens/tela-game-over.png') center center no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
