@@ -1,7 +1,7 @@
 # Mario-Game
 
 <p align="center">
-  <img src="src/imagens/game-over.png">
+  <img width="100" src="src/imagens/mario.gif">
 </p>
 <h1 align="center">
   Mario Game
