@@ -1,8 +1,8 @@
 # Mario-Game
 
 <p align="center">
-  <img src="src/imagens/mario.gif">
+  <img src="src/imagens/game-over.gif">
 </p>
-<h2 align="center">
+<h1 align="center">
   Mario Game
-</h2>
+</h1>
