@@ -6,7 +6,7 @@
 
 ## Found challenges
 
- When creating this project I used the setTimeout and setInterval, methods a lot and at the time I had no idea how they worked, and in order to solve this problem I looked for more information in the W3C documentation, and I did some in-depth research, so that when I need it I already know how to use them correctly.
+ When creating this project I used the setTimeout and setInterval, methods a lot and at the time I had no idea how they worked, and in order to solve this problem I looked for more information in the W3C documentation, and I did some in-depth research, so that when I needed them I already knew how to use them correctly.
 
 ## What did i learn?
 
