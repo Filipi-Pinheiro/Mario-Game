@@ -10,8 +10,8 @@
 
 ## What did i learn?
 
- - Use setTimeout and its features.
- - Use setInterval and its features.
+ - use setTimeout and its resources.
+ - use setInterval and its features.
 
 I also learned things like:
  - precise time control with setTimeout
